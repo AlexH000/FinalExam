@@ -1,0 +1,63 @@
+/* 1. Use a more-intuitive box-sizing model. */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/*  Remove default margin */
+  * {
+    margin: 0;
+  }
+
+/* Page */
+html{
+    background-color: #1c87c9;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+}
+
+table{
+    background-color: lightblue;
+    width: 600px;
+}
+
+.name{
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+/* Image*/
+
+  .self-image{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    padding:10px;
+    border: 3px solid blue;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+/* Caption */
+
+caption{
+  caption-side: bottom;
+  color: white;
+}
